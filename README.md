@@ -2,11 +2,12 @@
 
 ## users テーブル
 
-｜ Column   | Type   | Option      |
-｜--------  | ------ | ------------|
+| Column   | Type   | Options     |
+| -------- | ------ | ----------- |
 | name     | string | null: false |
-| email    | atring | null: false |
+| email    | string | null: false |
 | password | string | null: false |
+
 
 ### Association
 - has_many :room_users
